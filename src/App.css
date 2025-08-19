@@ -1,0 +1,98 @@
+/* Reset some defaults */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafc;
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Title */
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Role switch buttons */
+.role-switch {
+  margin-bottom: 30px;
+}
+
+.role-switch button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: 2px solid #007bff;
+  background: transparent;
+  color: #007bff;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.role-switch button:hover {
+  background: #007bff;
+  color: white;
+}
+
+.role-switch .active {
+  background: #007bff;
+  color: white;
+}
+
+/* Subscription plan cards */
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Button inside card */
+.card button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.card button:hover {
+  background: #218838;
+}
